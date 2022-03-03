@@ -3,7 +3,7 @@
     <record model="ir.actions.act_window" id="film_list_action">
         <field name="name">Films</field>
         <field name="res_model">opencinema.film</field>
-        <field name="view_mode">film.tree,film.search,film.form</field>
+        <field name="view_mode">film_tree_view,film_search_view,film_form_view</field>
         <field name="help" type="html">
             <p class="o_view_nocontent_smiling_face">
                 Create the first course
