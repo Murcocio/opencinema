@@ -3,13 +3,19 @@
         <field name="name">Evangelion: 3.0+1.0 Thrice Upon a Time </field>
         <field name="description">Cuarto y último volumen de La Reconstrucción de Evangelion. Misato y su grupo anti-NERV, Wille, llegan a una París roja por la nucleización. La tripulación de la nave Wunder aterriza en una torre de contención con solo 720 seg para reestablecer la ciudad. Cuando una horda de Evas NERV aparece, la mejorada Unidad Eva 8 debe interceptarlos. Mientras, Shinji, Asuka y Rei merodean por Japón.
         </field>
+        <field name="year">2021</field>
+        <field name="duration">154</field>
     </record>
     <record id="film1" model="opencinema.film">
       <field name="name">Spider-Man: No Way Home </field>
       <!-- No description -->
+      <field name="year">2021</field>
+      <field name="duration">148</field>
     </record>
     <record id="film2" model="opencinema.film">
       <field name="name">El caballero oscuro </field>
       <field name="description">Batman/Bruce Wayne (Christian Bale) regresa para continuar su guerra contra el crimen. Con la ayuda del teniente Jim Gordon (Gary Oldman) y del Fiscal del Distrito Harvey Dent (Aaron Eckhart), Batman se propone destruir el crimen organizado en la ciudad de Gotham. El triunvirato demuestra su eficacia, pero, de repente, aparece Joker (Heath Ledger), un nuevo criminal que desencadena el caos y tiene aterrados a los ciudadanos. (FILMAFFINITY)</field>
+      <field name="year">2008</field>
+      <field name="duration">152</field>
     </record>
 </odoo>
