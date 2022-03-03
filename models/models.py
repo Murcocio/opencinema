@@ -7,3 +7,6 @@ class opencinema(models.Model):
 
     name = fields.Char(string="Title", required=True)
     description = fields.Text()
+    title = fields.Text()
+    year = fields.Text()
+    duration = fields.Text()
