@@ -1,30 +1,15 @@
 <odoo>
-    <data>
-<!--
-          <record id="object0" model="opencinema.opencinema">
-            <field name="name">Object 0</field>
-            <field name="value">0</field>
-          </record>
-
-          <record id="object1" model="opencinema.opencinema">
-            <field name="name">Object 1</field>
-            <field name="value">10</field>
-          </record>
-
-          <record id="object2" model="opencinema.opencinema">
-            <field name="name">Object 2</field>
-            <field name="value">20</field>
-          </record>
-
-          <record id="object3" model="opencinema.opencinema">
-            <field name="name">Object 3</field>
-            <field name="value">30</field>
-          </record>
-
-          <record id="object4" model="opencinema.opencinema">
-            <field name="name">Object 4</field>
-            <field name="value">40</field>
-          </record>
--->
-    </data>
+    <record model="opencinema.film" id="film0">
+        <field name="name">Evangelion: 3.0+1.0 Thrice Upon a Time </field>
+        <field name="description">Cuarto y último volumen de La Reconstrucción de Evangelion. Misato y su grupo anti-NERV, Wille, llegan a una París roja por la nucleización. La tripulación de la nave Wunder aterriza en una torre de contención con solo 720 seg para reestablecer la ciudad. Cuando una horda de Evas NERV aparece, la mejorada Unidad Eva 8 debe interceptarlos. Mientras, Shinji, Asuka y Rei merodean por Japón.
+        </field>
+    </record>
+    <record id="film1" model="opencinema.film">
+      <field name="name">Spider-Man: No Way Home </field>
+      <!-- No description -->
+    </record>
+    <record id="film2" model="opencinema.films">
+      <field name="name">El caballero oscuro </field>
+      <field name="description">Batman/Bruce Wayne (Christian Bale) regresa para continuar su guerra contra el crimen. Con la ayuda del teniente Jim Gordon (Gary Oldman) y del Fiscal del Distrito Harvey Dent (Aaron Eckhart), Batman se propone destruir el crimen organizado en la ciudad de Gotham. El triunvirato demuestra su eficacia, pero, de repente, aparece Joker (Heath Ledger), un nuevo criminal que desencadena el caos y tiene aterrados a los ciudadanos. (FILMAFFINITY)</field>
+    </record>
 </odoo>
